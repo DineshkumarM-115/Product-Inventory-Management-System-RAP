@@ -1,0 +1,7 @@
+@EndUserText.label: 'Product Inventory Service'
+
+define service ZUI_PRODUCT_INVENTORY {
+
+  expose ZI_PRODUCT_INVENTORY;
+
+}
