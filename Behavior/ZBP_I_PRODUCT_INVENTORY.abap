@@ -1,0 +1,10 @@
+CLASS zbp_i_product_inventory DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC.
+
+  PUBLIC SECTION.
+ENDCLASS.
+
+CLASS zbp_i_product_inventory IMPLEMENTATION.
+ENDCLASS.
