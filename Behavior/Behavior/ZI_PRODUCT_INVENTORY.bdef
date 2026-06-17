@@ -1,0 +1,15 @@
+managed implementation in class zbp_i_product_inventory unique;
+
+define behavior for ZI_PRODUCT_INVENTORY
+persistent table zproduct_inv
+lock master
+authorization master
+{
+
+  create;
+  update;
+  delete;
+
+  field ( readonly ) stock_value;
+
+}
